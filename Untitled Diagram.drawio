@@ -1,0 +1,399 @@
+<mxfile host="app.diagrams.net" modified="2021-11-04T16:37:57.474Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="fOrJucOozNwCsIaXsMpu" version="15.6.6" type="github" pages="2">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="User Journey">
+    <mxGraphModel dx="2500" dy="2038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="E1yyVUCYPhT0-mz-M2in-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="E1yyVUCYPhT0-mz-M2in-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="User selects locations" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=default;strokeColor=default;fontColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="190" y="130" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-11" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="375" as="targetPoint" />
+            <mxPoint x="340" y="375" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-15" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="E1yyVUCYPhT0-mz-M2in-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="430" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-2" target="E1yyVUCYPhT0-mz-M2in-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="235" y="342.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-2" value="The front end sends request to get the availability timeslots&lt;b&gt;(6)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="230" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-4" target="E1yyVUCYPhT0-mz-M2in-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="342.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-4" value="The front end sends request to get the location menu &lt;b&gt;(1)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="230" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-7" target="WIyWlLk6GJQsqaUBKTNV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-7" value="User browses to takeout.wagamama.com" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="40" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-13" value="User taken to the error page" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="487.5" y="343.75" width="150" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-14" target="E1yyVUCYPhT0-mz-M2in-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-14" value="User taken to the menu page" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="187.5" y="510" width="165" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-25" target="E1yyVUCYPhT0-mz-M2in-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-25" target="E1yyVUCYPhT0-mz-M2in-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-25" value="User selects product items and clicks &#39;checkout&#39;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="210" y="653.75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-27" target="E1yyVUCYPhT0-mz-M2in-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-27" value="The front end sends request to get the availability timeslots &lt;b&gt;(6)&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="115" y="790" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-29" target="E1yyVUCYPhT0-mz-M2in-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-29" value="The front end sends request to check the basket &lt;b&gt;(2)&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="305" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-32" target="E1yyVUCYPhT0-mz-M2in-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-32" value="&lt;span&gt;Request returns success?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="205" y="920" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-34" value="&lt;span&gt;Request returns success?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="207.5" y="312.5" width="125" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-37" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="472.5" y="985" as="targetPoint" />
+            <mxPoint x="345" y="985" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-38" value="User taken to the error page" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=default;strokeColor=default;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="472.5" y="953.75" width="150" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-39" target="E1yyVUCYPhT0-mz-M2in-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-39" value="User is taken to the &#39;collection time&#39; page" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="215" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-41" target="E1yyVUCYPhT0-mz-M2in-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-41" value="User selects a timeslot. The front end sends a request to the Timeslots API to reserve a slot.&lt;b&gt;(7)&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="212.5" y="1210" width="125" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-47" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-43" target="E1yyVUCYPhT0-mz-M2in-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-43" target="E1yyVUCYPhT0-mz-M2in-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-43" value="Request returns success?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="222.5" y="1360" width="105" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-46" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;User taken to the error page&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="502.5" y="1380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-48" target="E1yyVUCYPhT0-mz-M2in-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-48" value="Use enters personal details" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="215" y="1560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-50" target="E1yyVUCYPhT0-mz-M2in-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-50" value="User is taken to the payment page" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="215" y="1700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-52" target="E1yyVUCYPhT0-mz-M2in-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-52" value="User clicks &#39;pay now&#39;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="215" y="1840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-54" target="E1yyVUCYPhT0-mz-M2in-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-54" value="User is taken to the adyen dropin form" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="215" y="1980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-56" target="E1yyVUCYPhT0-mz-M2in-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-56" value="User enters payment details and clicks &#39;pay&#39;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;strokeColor=default;labelBackgroundColor=default;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="215" y="2420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-58" target="E1yyVUCYPhT0-mz-M2in-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-58" value="Front end sends request to the &#39;order&#39; endpoint &lt;b&gt;(5)&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;strokeColor=default;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="216.5" y="2510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-63" value="3DS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-60" target="E1yyVUCYPhT0-mz-M2in-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-65" value="Non 3DS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="151.5" y="2690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-60" value="Payment type" style="rhombus;whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;fillColor=default;strokeColor=default;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="224" y="2640" width="105" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-62" target="E1yyVUCYPhT0-mz-M2in-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-62" value="User is prompted to input 3DS password" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;strokeColor=default;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="401.5" y="2660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-68" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-66" target="E1yyVUCYPhT0-mz-M2in-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-70" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-66" target="E1yyVUCYPhT0-mz-M2in-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-66" value="&lt;span&gt;Request returns success?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;fillColor=default;strokeColor=default;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-10" y="2620" width="156.5" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-67" value="&lt;span style=&quot;&quot;&gt;User taken to the error page&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;strokeColor=default;labelBackgroundColor=default;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-190" y="2660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-69" value="User is taken to the &#39;Thank You&#39; page. The ordering journey has finished successfully" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;fillColor=default;strokeColor=default;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="4.5" y="2850" width="127.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-74" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-71" target="E1yyVUCYPhT0-mz-M2in-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="684" y="2860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-78" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-71" target="E1yyVUCYPhT0-mz-M2in-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-71" value="Request returns success?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;fillColor=default;strokeColor=default;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="597.57" y="2615" width="166" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontSize=22;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-75" target="E1yyVUCYPhT0-mz-M2in-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-75" value="User is taken to the &#39;Payment processing&#39; page." style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;fillColor=default;strokeColor=default;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="616.5" y="2850" width="127.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-77" value="&lt;span style=&quot;&quot;&gt;User taken to the error page&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;strokeColor=default;labelBackgroundColor=default;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="840" y="2660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-79" value="&lt;h1&gt;1. Get location menu&lt;/h1&gt;&lt;p&gt;The front end requests the menu of the selected location from the backend. The backend returns an already cached version of the menu that is stored in the database (DynamoDB). A sequence diagram for this can be found in the wiki: &lt;br&gt;&lt;b&gt;Service Designs&lt;/b&gt; &amp;gt; &lt;b&gt;Wagamama Takeout&lt;/b&gt; &amp;gt; &lt;b&gt;Menu and Availability&lt;/b&gt; &amp;gt; &lt;b&gt;4. Get Menu&lt;/b&gt;&lt;/p&gt;&lt;p&gt;The source of truth for the menu sits in OHEICS and the Oracle Transaction Service.&lt;/p&gt;&lt;p&gt;OHEICS provides us with product names, prices, descriptions, image url, etc&lt;/p&gt;&lt;p&gt;The Oracle Transaction Service gives us the stock availability of each product&lt;/p&gt;&lt;p&gt;&lt;br&gt;The menu cache is updated manually by users that have access to the admin portal (https://wagamama.trg-admin.com/)&lt;/p&gt;&lt;p&gt;The process of the update itself is described in the following wiki:&lt;/p&gt;&lt;p&gt;&lt;b&gt;Projects &amp;gt; Service Designs&lt;/b&gt;&amp;nbsp;&amp;gt;&amp;nbsp;&lt;b&gt;Wagamama Takeout&lt;/b&gt;&amp;nbsp;&amp;gt;&amp;nbsp;&lt;b&gt;Menu and Availability&lt;/b&gt;&amp;nbsp;&amp;gt; &lt;b&gt;3. Update location menu&lt;/b&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="690" y="-40" width="710" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-80" value="&lt;font style=&quot;font-size: 22px&quot;&gt;&lt;b&gt;User Journey&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="170" y="-20" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-81" value="&lt;h1&gt;2. Check Basket request&lt;/h1&gt;&lt;p&gt;The front end sends a request to the backend to check if the user basket is valid and if the selected products are in stock.&lt;/p&gt;&lt;p&gt;Sequence diagram can be found here:&lt;/p&gt;&lt;p&gt;&lt;b&gt;Projects &amp;gt; Service Designs&lt;/b&gt;&amp;nbsp;&amp;gt;&amp;nbsp;&lt;b&gt;Wagamama Takeout&lt;/b&gt;&amp;nbsp;&amp;gt;&amp;nbsp;&lt;b&gt;Ordering: Part 1 &amp;gt; 1. Check Basket&lt;/b&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="690" y="240" width="710" height="147.5" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-82" value="&lt;h1&gt;5. Order&lt;/h1&gt;&lt;p&gt;The front end sends a request to the backend with the user details, user basket and payment details.&lt;/p&gt;&lt;p&gt;The backend will charge the user using the payment details via Adyen (the payment provider). After this the backend will attempt to send the order to OHEICS. If the order is accepted, the backend will return a successful response, but if it fails, we will cancel the payment that we have previously made via Adyen and then return an unsuccessful response.&lt;/p&gt;&lt;p&gt;Note that depending of the user card, there might be an extra step that requires 3DS credentials.&lt;/p&gt;1. Sequence diagram of the order endpoint:&lt;br&gt;&lt;p&gt;&lt;b&gt;Projects &amp;gt; Service Designs&lt;/b&gt;&amp;nbsp;&amp;gt;&amp;nbsp;&lt;b&gt;Wagamama Takeout&lt;/b&gt;&amp;nbsp;&amp;gt;&amp;nbsp;&lt;b&gt;Ordering: Part 1 &amp;gt; 2. Order&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;2. Sequence diagram of the 3ds flow:&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Projects &amp;gt; Service Designs&lt;/b&gt;&amp;nbsp;&amp;gt;&amp;nbsp;&lt;b&gt;Wagamama Takeout&lt;/b&gt;&amp;nbsp;&amp;gt;&amp;nbsp;&lt;b&gt;Ordering: Part 2 &amp;gt;&amp;nbsp; 3. Order (3DS) Webhook&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Projects &amp;gt; Service Designs&lt;/b&gt;&amp;nbsp;&amp;gt;&amp;nbsp;&lt;b&gt;Wagamama Takeout&lt;/b&gt;&amp;nbsp;&amp;gt;&amp;nbsp;&lt;b&gt;Ordering: Part 2 &amp;gt;&amp;nbsp; 4. Order (3DS) Process&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="690" y="750" width="710" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontSize=22;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-83" target="E1yyVUCYPhT0-mz-M2in-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-83" value="The front end will start polling the backend for the status of the order every 1 second until it returns success/failure or times out after 30 seconds. A time out will get the user to an error page" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;fillColor=default;strokeColor=default;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="614.63" y="3038" width="131.25" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontSize=22;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-85" target="E1yyVUCYPhT0-mz-M2in-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-89" value="&lt;font style=&quot;font-size: 12px&quot;&gt;No&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontSize=22;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-85" target="E1yyVUCYPhT0-mz-M2in-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-91" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-85" target="E1yyVUCYPhT0-mz-M2in-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-85" value="&lt;span&gt;Request returns success?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;fillColor=default;strokeColor=default;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="603.25" y="3240" width="154" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-87" value="&lt;span style=&quot;&quot;&gt;User taken to the error page&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;strokeColor=default;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="827.435" y="3285" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-90" value="&lt;span&gt;User is taken to the &#39;Thank You&#39; page. The ordering journey has finished successfully&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;fillColor=default;strokeColor=default;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="620.57" y="3475" width="120" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-92" target="E1yyVUCYPhT0-mz-M2in-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-92" value="The Front end sends a request to the backend to get the available payment methods/ get an apple pay session if you are using an iPhone/Mac &lt;b&gt;(3) (4)&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="165" y="2110" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-96" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-94" target="E1yyVUCYPhT0-mz-M2in-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="E1yyVUCYPhT0-mz-M2in-94" target="E1yyVUCYPhT0-mz-M2in-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-99" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=default;" vertex="1" connectable="0" parent="E1yyVUCYPhT0-mz-M2in-98">
+          <mxGeometry x="-0.2645" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-94" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;Request returns success?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="217.5" y="2270" width="115" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-97" value="&lt;span style=&quot;font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;User taken to the error page&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;glass=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="410" y="2295" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-100" value="&lt;h1&gt;3. Get Payment methods&lt;/h1&gt;&lt;p&gt;The front end sends a request to the backend to get the payment options. The source of truth for these is Adyen, so the backend acts like a proxy - it forwards the request from the front end to Adyen, and then forwards the response from adyen to the front end.&lt;/p&gt;&lt;p&gt;The payment details are used by the Adyen SDK on the frontend to render the payment form&lt;/p&gt;&lt;p&gt;Sequence diagram can be found here:&lt;/p&gt;&lt;p&gt;&lt;b&gt;Projects &amp;gt; Service Designs&lt;/b&gt;&amp;nbsp;&amp;gt;&amp;nbsp;&lt;b&gt;Wagamama Takeout&lt;/b&gt;&amp;nbsp;&amp;gt;&amp;nbsp;&lt;b&gt;Menu and Availability&amp;nbsp;&lt;/b&gt;&lt;b&gt;&amp;gt; 5. Get Payment methods&lt;/b&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="690" y="380" width="710" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="E1yyVUCYPhT0-mz-M2in-101" value="&lt;h1&gt;4. Get Apple Pay session&lt;/h1&gt;&lt;p&gt;The front end sends a request to the backend to get an apple pay session. The source of truth for this is Adyen, so the backend acts like a proxy - it forwards the request from the front end to Adyen, and then forwards the response from adyen to the front end&amp;nbsp;&lt;/p&gt;&lt;p&gt;The apple pay session is used by the Adyen SDK on the frontend to load the apple pay widget&lt;br&gt;&lt;/p&gt;&lt;p&gt;Sequence diagram can be found here:&lt;/p&gt;&lt;p&gt;&lt;b&gt;Projects &amp;gt; Service Designs&lt;/b&gt;&amp;nbsp;&amp;gt;&amp;nbsp;&lt;b&gt;Wagamama Takeout&lt;/b&gt;&amp;nbsp;&amp;gt;&amp;nbsp;&lt;b&gt;Menu and Availability&amp;nbsp;&lt;/b&gt;&lt;b&gt;&amp;gt; 6. Get Apple pay session&lt;/b&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="690" y="567.5" width="710" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="v3YagsyC7NhQc2a5wNN3-0" value="&lt;h1&gt;6. Timeslots API - get available time slots&lt;/h1&gt;&lt;p&gt;The front end sends a request to the Timeslots API to get the available time slots. This will determine if the store is closed.&lt;/p&gt;&lt;p&gt;The Timeslots API is using the Wagamama Takeout Service to update the trading hours of the store by sending a &#39;get availability&#39; request for each store every 1 hour. Wagamama Takeout is then forwarding this request to OHEICS, since OHEICS is the source of truth for the trading hours of a store&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="690" y="1070" width="710" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="v3YagsyC7NhQc2a5wNN3-1" value="&lt;h1&gt;7. Timeslots API - get reserve time slot&lt;/h1&gt;&lt;p&gt;The front end sends a request to the Timeslots API to reserve a time slot. If a time slot gets exhausted, it will be hidden from the front end.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="690" y="1210" width="710" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="kXE_h56kVrfWDVlaTV3z" name="Service Diagram">
+    <mxGraphModel dx="1422" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="JrRwglI4bpaGfBDpflon-0" />
+        <mxCell id="JrRwglI4bpaGfBDpflon-1" parent="JrRwglI4bpaGfBDpflon-0" />
+        <mxCell id="El61C9yqTAL1OaHLv1-H-1" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="JrRwglI4bpaGfBDpflon-1">
+          <mxGeometry x="60" y="620" width="330" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-0" value="takeout.wagamama.com&lt;br&gt;Front End" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="JrRwglI4bpaGfBDpflon-1">
+          <mxGeometry x="90" y="640" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-2" value="Omnifi AWS" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontSize=12;fontColor=default;" vertex="1" parent="JrRwglI4bpaGfBDpflon-1">
+          <mxGeometry x="175" y="590" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;fontSize=12;fontColor=default;endArrow=none;endFill=0;strokeColor=default;fillColor=default;" edge="1" parent="JrRwglI4bpaGfBDpflon-1" source="El61C9yqTAL1OaHLv1-H-3" target="El61C9yqTAL1OaHLv1-H-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-3" value="Timeslots API" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="JrRwglI4bpaGfBDpflon-1">
+          <mxGeometry x="90" y="730" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-4" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="JrRwglI4bpaGfBDpflon-1">
+          <mxGeometry x="450" y="620" width="270" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-6" value="MWS AWS" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontSize=12;fontColor=default;" vertex="1" parent="JrRwglI4bpaGfBDpflon-1">
+          <mxGeometry x="537.5" y="590" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;endArrow=none;endFill=0;fillColor=default;" edge="1" parent="JrRwglI4bpaGfBDpflon-1" source="El61C9yqTAL1OaHLv1-H-7" target="El61C9yqTAL1OaHLv1-H-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-7" value="Wagamama Takeout Service" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="JrRwglI4bpaGfBDpflon-1">
+          <mxGeometry x="480" y="635" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-8" value="DynamoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="JrRwglI4bpaGfBDpflon-1">
+          <mxGeometry x="620" y="640" width="67" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-9" value="DynamoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="JrRwglI4bpaGfBDpflon-1">
+          <mxGeometry x="240" y="725" width="67" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-12" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="JrRwglI4bpaGfBDpflon-1">
+          <mxGeometry x="60" y="910" width="420" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-13" value="3rd Party Services" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontSize=12;fontColor=default;" vertex="1" parent="JrRwglI4bpaGfBDpflon-1">
+          <mxGeometry x="222.5" y="880" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-14" value="OHEICS" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="JrRwglI4bpaGfBDpflon-1">
+          <mxGeometry x="95" y="930" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-15" value="Oracle Transaction Service" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="JrRwglI4bpaGfBDpflon-1">
+          <mxGeometry x="197" y="920" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-17" value="Adyen" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="JrRwglI4bpaGfBDpflon-1">
+          <mxGeometry x="360" y="935" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-18" value="&lt;b&gt;Service Diagram&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontSize=12;fontColor=default;" vertex="1" parent="JrRwglI4bpaGfBDpflon-1">
+          <mxGeometry x="370" y="10" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontSize=12;fontColor=default;endArrow=classicThin;endFill=1;strokeColor=default;fillColor=default;" edge="1" parent="JrRwglI4bpaGfBDpflon-1" source="El61C9yqTAL1OaHLv1-H-19" target="El61C9yqTAL1OaHLv1-H-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontSize=12;fontColor=default;endArrow=classic;endFill=1;strokeColor=default;fillColor=default;" edge="1" parent="JrRwglI4bpaGfBDpflon-1" source="El61C9yqTAL1OaHLv1-H-19" target="El61C9yqTAL1OaHLv1-H-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-19" value="takeout.wagamama.com" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="JrRwglI4bpaGfBDpflon-1">
+          <mxGeometry x="356.5" y="1460" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontSize=12;fontColor=default;endArrow=classic;endFill=1;strokeColor=default;fillColor=default;" edge="1" parent="JrRwglI4bpaGfBDpflon-1" source="El61C9yqTAL1OaHLv1-H-20" target="El61C9yqTAL1OaHLv1-H-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;fontSize=12;fontColor=default;endArrow=classic;endFill=1;strokeColor=default;fillColor=default;startArrow=classic;startFill=1;" edge="1" parent="JrRwglI4bpaGfBDpflon-1" source="El61C9yqTAL1OaHLv1-H-20" target="El61C9yqTAL1OaHLv1-H-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-20" value="Timeslots API" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="JrRwglI4bpaGfBDpflon-1">
+          <mxGeometry x="223.5" y="1600" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;fontSize=12;fontColor=default;endArrow=classic;endFill=1;strokeColor=default;fillColor=default;startArrow=classic;startFill=1;" edge="1" parent="JrRwglI4bpaGfBDpflon-1" source="El61C9yqTAL1OaHLv1-H-21" target="El61C9yqTAL1OaHLv1-H-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=default;fontSize=12;fontColor=default;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=default;fillColor=default;" edge="1" parent="JrRwglI4bpaGfBDpflon-1" source="El61C9yqTAL1OaHLv1-H-21" target="El61C9yqTAL1OaHLv1-H-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=default;fontSize=12;fontColor=default;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=default;fillColor=default;" edge="1" parent="JrRwglI4bpaGfBDpflon-1" source="El61C9yqTAL1OaHLv1-H-21" target="El61C9yqTAL1OaHLv1-H-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontSize=12;fontColor=default;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=default;fillColor=default;" edge="1" parent="JrRwglI4bpaGfBDpflon-1" source="El61C9yqTAL1OaHLv1-H-21" target="El61C9yqTAL1OaHLv1-H-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-21" value="Wagamama Takeout Service" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="JrRwglI4bpaGfBDpflon-1">
+          <mxGeometry x="446.5" y="1600" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-25" value="DynamoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="JrRwglI4bpaGfBDpflon-1">
+          <mxGeometry x="113.5" y="1605" width="67" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-26" value="DynamoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="JrRwglI4bpaGfBDpflon-1">
+          <mxGeometry x="596.5" y="1605" width="67" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontSize=12;fontColor=default;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=default;fillColor=default;" edge="1" parent="JrRwglI4bpaGfBDpflon-1" source="El61C9yqTAL1OaHLv1-H-29" target="El61C9yqTAL1OaHLv1-H-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-29" value="OHEICS" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="JrRwglI4bpaGfBDpflon-1">
+          <mxGeometry x="446.5" y="1750" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-30" value="Adyen" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="JrRwglI4bpaGfBDpflon-1">
+          <mxGeometry x="586.5" y="1750" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="El61C9yqTAL1OaHLv1-H-31" value="Oracle Transaction Service" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=default;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="JrRwglI4bpaGfBDpflon-1">
+          <mxGeometry x="306.5" y="1750" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9QGX9js_JBz1yqSFqTac-0" value="&lt;h1&gt;1. Service Overview&lt;/h1&gt;&lt;p&gt;The diagram below shows all the different services that are taking part in the wagamama takeout user journey&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;1. &lt;b&gt;takeout.wagamama.com &lt;/b&gt;- static front end website written in VueJS and sitting in the Omnifi AWS account.&lt;/p&gt;&lt;p&gt;2. &lt;b&gt;Timeslots API &lt;/b&gt;- serverless API written in NodeJS + AWS Lambda, sitting in the Omnifi AWS account. The service has access to its own DynamoDB set of tables that are also sitting in the Omnifi AWS account. Every endpoint is a different lambda function that scales separately. Performing under heavy load isn&#39;t a problem.&lt;/p&gt;&lt;p&gt;3. &lt;b&gt;Wagamama Takeout Service&lt;/b&gt; - API written in PHP, provisioned as a cluster of Docker containers and sitting in the MWS AWS account. The service has access to its own DynamoDB set of tables that are also sitting in the MWS AWS account. The application is hosted using AWS Fargate, which spawns a cluster of containers with a Load Balancer on the front. The Load Balancer can spawn/destroy containers based on the application load, therefore performing under heavy load isn&#39;t a problem.&lt;/p&gt;&lt;p&gt;4. &lt;b&gt;OHEICS&lt;/b&gt; - API owned by Oracle and used by TRG to manage locations, menus, etc on global level. The API is consumed by the &lt;b&gt;Wagamama Takeout Service&lt;/b&gt;, to get menu data, location availability, check user basket, inject user orders into the restaurant POS. Since &lt;b&gt;OHEICS&lt;/b&gt;&amp;nbsp;is the destination of most of the &lt;b&gt;Timeslots API&lt;/b&gt; and &lt;b&gt;Wagamama Takeout Service&lt;/b&gt; requests, most errors need to be tracked in &lt;b&gt;OHEICS&lt;/b&gt;.&amp;nbsp;&lt;/p&gt;&lt;p&gt;Note that &lt;b&gt;OHEICS&lt;/b&gt; is using the &lt;b&gt;Oracle Transaction Service&lt;/b&gt;&amp;nbsp;on a low level to get store details and inject the order into the restaurant POS.&lt;/p&gt;&lt;p&gt;https://docs.oracle.com/cd/E89843_01/doc.43/e90857.pdf&lt;/p&gt;&lt;p&gt;5. &lt;b&gt;Oracle Transaction Service&lt;/b&gt; - API owned by oracle and used by TRG to manage locations on store level. This application is installed on a PC in each store and exposes an entry point, that can be accessed from within the wagamama network (http://10.10.251.11:8080). Consumers of the API can get product availability, inject orders, create tables, add payment transactions to specific tables etc.&lt;/p&gt;&lt;p&gt;6. &lt;b&gt;Adyen &lt;/b&gt;- 3rd party API for handling payments. This service is used by the &lt;b&gt;Wagamama Takeout Service &lt;/b&gt;to handle user payments and by the &lt;b&gt;takeout.wagamama.com &lt;/b&gt;web site, to render the payment form on the front end (also called drop-in form).&amp;nbsp;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=default;fontSize=12;fontColor=default;" vertex="1" parent="JrRwglI4bpaGfBDpflon-1">
+          <mxGeometry x="60" y="90" width="760" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="9QGX9js_JBz1yqSFqTac-1" value="&lt;h1&gt;2. Dependency Diagram&lt;/h1&gt;&lt;p&gt;The diagram bellow is showing the dependencies between the services that are taking part in the wagamama takeout user journey.&lt;/p&gt;&lt;p&gt;The &lt;b&gt;front end web site&lt;/b&gt; is using the &lt;b&gt;Timeslots API&lt;/b&gt; and the &lt;b&gt;Wagamama Takeout Service&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;The Timeslots API is using the &lt;b&gt;Wagamama Takeout Service&lt;/b&gt; as well as &lt;b&gt;DynamoDB&lt;/b&gt; for data persistence.&lt;/p&gt;&lt;p&gt;The &lt;b&gt;Wagamama Takeout Service&lt;/b&gt; is using &lt;b&gt;OHEICS&lt;/b&gt; and the &lt;b&gt;Oracle Transaction Service &lt;/b&gt;as well as &lt;b&gt;DynamoDB &lt;/b&gt;for data persistence&lt;/p&gt;&lt;p&gt;&lt;b&gt;OHEICS&lt;/b&gt; is using the &lt;b&gt;Oracle Transaction Service&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;The sequence diagrams in the wiki bellow shows how the different services are dependent on eachother:&lt;/p&gt;&lt;p&gt;&lt;b&gt;Projects &amp;gt; Service Designs&lt;/b&gt;&amp;nbsp;&amp;gt;&amp;nbsp;&lt;b&gt;Wagamama Takeout&lt;/b&gt;&amp;nbsp;&amp;gt;&amp;nbsp;&lt;b&gt;Menu and Availability&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Projects &amp;gt; Service Designs&lt;/b&gt;&amp;nbsp;&amp;gt;&amp;nbsp;&lt;b&gt;Wagamama Takeout&lt;/b&gt;&amp;nbsp;&amp;gt;&amp;nbsp;&lt;b&gt;Ordering: Part 1&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Projects &amp;gt; Service Designs&lt;/b&gt;&amp;nbsp;&amp;gt;&amp;nbsp;&lt;b&gt;Wagamama Takeout&lt;/b&gt;&amp;nbsp;&amp;gt;&amp;nbsp;&lt;b&gt;Ordering: Part 2&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=default;fontSize=12;fontColor=default;" vertex="1" parent="JrRwglI4bpaGfBDpflon-1">
+          <mxGeometry x="60" y="1100" width="730" height="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
